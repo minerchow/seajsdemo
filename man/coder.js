@@ -1,16 +1,16 @@
 define(function(require, exports, module){
 	var $ = require('jquery');
-	var Man = require('man/man');
-	function Coder(name,age,job){
-		Man.call(this,name,age);
+	var man = require('man/man');
+	function coder(name,age,job){
+		man.call(this,name,age);
 		this.job = job
 	}
 
-	module.exports = Coder;
+	module.exports = coder;
 
-	Coder.prototype = new Man();
+	coder.prototype = new man();
 
-	Coder.prototype.say = function(){
+	coder.prototype.say = function(){
 		document.write("<div>"+this.name+this.age+this.job+"</div>");
 
 	}

@@ -1,11 +1,11 @@
 define(function(require) {
 
-  var Man = require("man/man.js");
+  var man = require("man/man.js");
 
-  var p = new Man("zhouming",25);
+  var p = new man("zhouming",25);
 
-  var Coder = require('man/coder.js');
-  var c = new Coder("zhouming",25,"coder")
+  var coder = require('man/coder.js');
+  var c = new coder("zhouming",25,"coder")
   p.say();
   c.say();
 

@@ -1,13 +1,13 @@
 define(function(require, exports, module){
 	var $ = require('jquery');
-	function Man(name,age){
+	function man(name,age){
 		this.name = name;
 		this.age = age;
 	}
 
-	module.exports = Man;
+	module.exports = man;
 
-	Man.prototype.say = function(){
+	man.prototype.say = function(){
 		document.write("<div>"+this.name+this.age+"</div>");
 
 	}
