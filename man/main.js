@@ -1,5 +1,5 @@
 define(function(require) {
-
+//实例化调用
   var man = require("man/man.js");
 
   var p = new man("zhouming",25);
