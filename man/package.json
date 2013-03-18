@@ -1,0 +1,19 @@
+
+{
+  "name": "main",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "lib/jquery-1.9.1.min"
+  },
+  "root": "seajsdemo",
+  "output": {
+    "main.js": ".",
+    "main.css": "."
+  },
+  "spmConfig": {
+    "build": {
+      "to": "../sea-modules/{{root}}/{{name}}/{{version}}"
+    }
+  }
+}
+
